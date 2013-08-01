@@ -1,4 +1,6 @@
-angularjs_hello_world_improved
-==============================
-
 AngularJS Hello World! Improved
+===============================
+
+Necesitas tener instalado node.js.
+
+http://nodejs.org/download/
