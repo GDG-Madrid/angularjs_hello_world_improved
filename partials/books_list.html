@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="span12">
+    <h1>Libros</h1>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th></th>
+        <th>Referencia</th>
+        <th>Nombre</th>
+        <th>Autor</th>
+        <th></th>
+      </thead>
+      <tbody>
+        <tr ng-repeat="book in books">
+          <td></td>
+          <td>{{ book.ref }}</td>
+          <td>{{ book.name }}</td>
+          <td>{{ book.author }}</td>
+          <td><a ng-href="/books/{{ book.ref }}/"><i class="icon-edit-sign"></i></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
